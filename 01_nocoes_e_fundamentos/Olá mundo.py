@@ -1,2 +1,5 @@
-print("Sávio Cunha")
-print("Olá Mundo!")
+nome = input("Qual é o seu nome ?")
+Dia = input("Agora digite qual foi o dia que você nasceu ?")
+Mes = input("Digite o mes que você nasceu")
+Ano = input("Digite o ano em que você nasceu")
+print(f"Meu nome é {nome} nasci no dia {Dia}/{Mes}/{Ano}")

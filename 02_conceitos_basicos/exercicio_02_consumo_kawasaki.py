@@ -12,3 +12,8 @@ Calcule e imprima o consumo médio da motocicleta (Km/L) formatado com 2 casas d
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+distancia_total=float(input("Qual é a distância total pecorrida em km de uma viagem, partindo de Tianguá para o Beach Park(Aquiraz)?"))
+total_combustivel=float(input("Agora quantos litros seriam gastos ao total dessa viagem ? "))
+consumo_medio=distancia_total / total_combustivel
+print(f"O consumo médio de sua viagem é de {consumo_medio:.2f} por km/l")
