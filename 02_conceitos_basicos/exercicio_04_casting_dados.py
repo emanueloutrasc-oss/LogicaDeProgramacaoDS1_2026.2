@@ -10,6 +10,7 @@ Imprima a idade calculada com uma mensagem personalizada.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
 # 1. Recebe o ano de nascimento como texto (str)
 ano_de_nascimento = input("Digite seu ano de nascimento: ")
 

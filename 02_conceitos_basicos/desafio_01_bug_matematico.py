@@ -24,3 +24,6 @@ nota1 = float(input("Digite a primeira nota:"))
 nota2 = float(input("Digite a primeira nota:"))
 media = (nota1 + nota2) / 2 
 print("A média do aluno é:", media)
+#Além de ser necessário do dado ser recebido em float ao invés de str 
+#O ERRO estava na operação por falta de um parêntese 
+#fazendo com que a prioridade fosse da divisão e não da soma
