@@ -13,3 +13,18 @@ Imprima "Isento" ou o valor total do imposto formatado com 2 casas decimais.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valor_1 = float(input("Digite o salário: "))
+
+if valor_1 <= 2000:
+    print("Isento")
+elif 2000 < valor_1 <= 3000:
+    imposto = (valor_1 - 2000) * 0.08
+    print(f"R$ {imposto:.2f}")
+elif 3000 < valor_1 <= 4500:
+    # 80.00 é o imposto fixo da faixa anterior (1000 * 0.08)
+    imposto = 80.00 + (valor_1 - 3000) * 0.18
+    print(f"R$ {imposto:.2f}")
+elif valor_1 > 4500:
+    # 350.00 é a soma do imposto fixo das duas faixas anteriores (80.00 + 270.00)
+    imposto = 350.00 + (valor_1 - 4500) * 0.28
+    print(f"R$ {imposto:.2f}")

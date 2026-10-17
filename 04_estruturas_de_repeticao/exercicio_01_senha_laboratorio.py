@@ -9,3 +9,10 @@ Ao acertar, imprima "Acesso Permitido" e finalize o programa.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+senha_correta =2002
+senha=""
+while senha != senha_correta:
+    senha=(float(input("Digite sua senha: ")))
+    if senha != 2002:
+        print("Senha Invalida")
+print("Acesso Permitido")
